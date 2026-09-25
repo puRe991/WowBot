@@ -1,0 +1,6 @@
+# Nur Windows; Python 3.7 (32-Bit empfohlen, passend zum WoW-1.12-Client)
+pywin32
+pyfasm
+psutil
+numpy
+uptime

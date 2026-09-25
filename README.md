@@ -62,10 +62,10 @@ MovingToNextLoc ──angegriffen──► Combat ──Gegner tot──► Reco
 - Windows
 - World of Warcraft Client **1.12.x** (32-Bit) – alle Adressen in `constants.py` gelten nur für diese Version
 - Python 3.7 (32-Bit empfohlen, passend zum Client)
-- Python-Pakete:
+- Python-Pakete (siehe `requirements.txt`):
 
 ```bash
-pip install pywin32 pyfasm psutil numpy uptime
+pip install -r requirements.txt
 ```
 
 - Das Skript muss mit Administratorrechten laufen (wegen `SeDebugPrivilege`).
@@ -113,4 +113,3 @@ Welche Zauber verfügbar sind, wird in `SpellBook` (`spellMachine.py`) festgeleg
 - Drei parallele State-Machine-Versionen; Migration auf `stateMachineV3` ist in Arbeit.
 - Keine Wegfindung – Bewegung erfolgt geradlinig zu Wegpunkten.
 - Offsets sind hart kodiert und funktionieren nur mit Client 1.12.
-- `__pycache__` ist eingecheckt und sollte per `.gitignore` ausgeschlossen werden.
